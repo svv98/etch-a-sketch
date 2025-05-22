@@ -1,7 +1,7 @@
 const grid=document.querySelector('.container');
 const changeGrid=document.querySelector('.changeGrid');
 let divi;
-getGrid(4);
+getGrid(16);
 
 function getGrid(num){
     grid.replaceChildren();
