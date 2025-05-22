@@ -1,0 +1,40 @@
+.button{
+    width: fit-content;
+    margin: 2vh auto;
+}
+.button .changeGrid{
+    width: fit-content;
+    margin: auto;
+    padding: 7px 10px;
+    background-color: rgb(163, 12, 88);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(117, 11, 64);
+}
+.changeGrid:hover{
+    background-color: rgba(163, 12, 88, 0.151);
+    color: rgb(163, 12, 88);
+}
+
+.container{
+    width: 80vh;
+    height: 80vh;
+    margin: 0 auto;
+    border: 4px solid rgb(196, 178, 178);
+}
+
+.divi{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+.divi .div{
+    width: inherit;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    margin: 0;
+}
+
